@@ -1,0 +1,113 @@
+@charset "utf-8";
+.imagenfondo1 {
+    background-image: url(../img/comida1.jpg);
+    background-position: center center;
+    text-align: left;
+    background-size: cover;
+}
+.texto-negro   {
+    color: #000000;
+}
+.footer {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.margen-inferior {
+    margin-bottom: 20px;
+}
+
+.enlace-footer {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000000;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-transform: none;
+    padding: 0;
+    float: none;
+    margin-left: -40px;
+    /* [disabled]text-align: left; */
+}
+.enlace-footer a {
+    color: #000000;
+}
+ul .enlace-footer a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #F4EAD4;
+    position: relative;
+}
+
+.fondo-historia {
+    background-image: url(../images/historia/banner_historia.jpg);
+    background-size: cover;
+}
+.fondo-entregas {
+    background-image: url(../images/entregas/banner.png);
+    background-size: cover;
+}
+.fondo-puzles {
+    background-image: url(../images/puzles/banner.png);
+    background-size: cover;
+}
+.container-fluid .jumbotron h1  {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.separacion {
+    border-left: 10;
+    border-right: 10;
+    border-top: 10;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: #E9E9E9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.personajes img {
+    max-width: 250px;
+
+
+
+
+
+}
+.nombre-entrega {
+    font-size: small;
+    margin-top: -5px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card {
+    border: 0 none;
+}
+.borde-puzzle {
+    border: 2px solid #DBBA72;
+    background-color: #FAF4E8;
+}
+.pistas .card .card-header h5 .btn {
+    text-shadow: 0px 0px;
+    color: #000000;
+}
+.pistas .card .card-header   {
+    text-shadow: 0px 0px;
+    background-color: #FEE5B4;
+}
+.respuesta {
+    font-size: x-large;
+    color: #FF6A07;
+}
+.navbar-brand  {
+    font-weight: bold;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    letter-spacing: 2px;
+    color: #662825;
+}
